@@ -4,8 +4,12 @@
 // Apply wonderous-book template
 // Note: The template handles its own outline (table of contents)
 #show: book.with(
-  title: "Book Title",
-  author: "Author",
+$if(title)$
+  title: [$title$],
+$endif$
+$if(by-author)$
+  author: "$for(by-author)$$it.name.literal$$sep$, $endfor$",
+$endif$
 )
 
 // Enable heading numbering for chapters (required for Quarto cross-references)

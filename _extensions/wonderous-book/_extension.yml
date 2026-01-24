@@ -1,0 +1,13 @@
+title: Typst Wonderous Book Format
+author: Quarto
+version: 0.1.0
+quarto-required: ">=1.9.17"
+contributes:
+  formats:
+    typst:
+      template-partials:
+        - typst-show.typ
+        - numbering.typ
+      filters:
+        - path: wonderous-book.lua
+          at: post-quarto

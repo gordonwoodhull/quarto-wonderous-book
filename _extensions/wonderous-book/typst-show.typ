@@ -15,3 +15,7 @@ $endif$
 // Enable heading numbering for chapters (required for Quarto cross-references)
 // wonderous-book sets this inside body scope, but we need it globally for refs
 #set heading(numbering: "1.")
+
+// Apply chapter-based numbering to all figures
+// Wonderous-book may not number Quarto's custom figure kinds (quarto-float-fig, etc.)
+#set figure(numbering: quarto-figure-numbering)

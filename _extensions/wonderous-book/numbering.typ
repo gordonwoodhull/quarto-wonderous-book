@@ -24,3 +24,12 @@
 }
 
 #let quarto-thmbox-args = (base: "heading", base_level: 1)
+
+// Chapter-based figure numbering for Quarto's custom float kinds
+// Wonderous-book's built-in numbering may not cover Quarto's custom kinds
+// (quarto-float-fig, quarto-float-tbl, etc.), so we apply this globally
+#let quarto-figure-numbering(num) = {
+  let chapter = counter(heading).get().first()
+  let pattern = if quarto-in-appendix() { "A.1" } else { "1.1" }
+  numbering(pattern, chapter, num)
+}

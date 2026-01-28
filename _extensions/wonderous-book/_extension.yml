@@ -8,6 +8,7 @@ contributes:
       template-partials:
         - typst-show.typ
         - numbering.typ
+        - page.typ
       filters:
         - path: wonderous-book.lua
           at: post-quarto

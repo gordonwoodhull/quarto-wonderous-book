@@ -5,8 +5,8 @@ This is a proof-of-concept implementation of a Quarto format extension implement
 I don't intend to maintain this, so I am archiving it.
 
 If you fork this, please share your maintained version:
-- Submit to the [official Quarto extensions listing](https://github.com/quarto-dev/quarto-web/tree/main/docs/extensions/listings)
-- Add it to the unofficial [quarto-extensions](https://m.canouil.dev/quarto-extensions/about.html)
+* Submit it to the [official Quarto extensions](https://github.com/quarto-dev/quarto-web/tree/main/docs/extensions/listings) listing
+* Add it to the [unofficial Quarto extensions](https://m.canouil.dev/quarto-extensions/about.html) listing
 
 ## Installation
 

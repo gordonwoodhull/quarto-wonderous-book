@@ -6,7 +6,7 @@ I don't intend to maintain this, so I am archiving it.
 
 If you fork this, please share your maintained version:
 - Submit to the [official Quarto extensions listing](https://github.com/quarto-dev/quarto-web/tree/main/docs/extensions/listings)
-- Add it to [awesome-quarto](https://github.com/mcanouil/awesome-quarto/issues/new?assignees=mcanouil&labels=&template=suggestion.yml)
+- Add it to the unofficial [quarto-extensions](https://m.canouil.dev/quarto-extensions/about.html)
 
 ## Installation
 
